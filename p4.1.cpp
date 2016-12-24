@@ -7,6 +7,7 @@ unsigned int PrimeFac(unsigned int n);
 
 int main()
 {
+	// 测试程序
 	unsigned int a;
 	cout<<"This program can prime factorization.\n";
 	cout<<"Plese input a number:";

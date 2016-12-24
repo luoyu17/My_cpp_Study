@@ -6,6 +6,7 @@ unsigned int Getlcm(unsigned int x,unsigned int y);
 
 int main()
 {
+	// 测试程序
 	unsigned int a,b;
 	cout<<"This program can computes GCD and LCM of two numbers.\n";
 	cout<<"Plese input a:";
