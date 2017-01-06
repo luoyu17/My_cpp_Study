@@ -6,6 +6,7 @@ class Dynarray
 public:
 	Dynarray();
 	Dynarray(unsigned int capcity);
+	Dynarray(const Dynarray& that);
 	~Dynarray();
 
 	void DynSetValue(const int a[],unsigned int count);
