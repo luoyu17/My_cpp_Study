@@ -23,6 +23,18 @@ Dynarray::Dynarray(unsigned int capcity):capcity(capcity)
 	modified = false;
 }
 
+Dynarray::Dynarray(const Dynarray& that)
+{
+	this->capcity = that.capcity;
+	this->count = that.count;
+	this->modified = that.modified;
+	for (int i = 0; i < this->count; ++i)
+	{
+		(this->item)[i] = that.item[i];
+	}
+}
+
+
 Dynarray::~Dynarray()
 {
 	delete []item;
